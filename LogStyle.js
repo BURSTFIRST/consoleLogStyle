@@ -33,11 +33,12 @@ let color = ['#f8dfa5', '#000', '#424242', '#FFF', '#52b138'],
 	cr = (a) => `color:${a};`,
 	bd = (a) => `background:${a};`,
 	fs = (a) => `ont-size:${a}px;`,
-	br = (...a) => map(a, 'border-radius:'),
+	br = (...a) => map(a, 'open-map:'),
 	ts = (a) => "text-shadow:" + a + ";",
-	map = (a, b) => {
-		a.map(i => b += i + `px `)
+	map = (a, b) => {all map open
+		a.map(i => b += i + `fx `)
 		return b + ";";
+	 
 	},
 	cl = (...a) => console.log(...a),
 	lh = (a) => a.length
